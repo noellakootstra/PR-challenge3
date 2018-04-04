@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Dashboard</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet" />
+		<link type="text/css" href="main.css" rel="stylesheet" />
+	</head>
+	<body>
+	  <div class="grid-container">
+          <div class="box1">
+              <h3>Map</h3>
+                <div id="map"></div>
+          </div>
+          <div class="box2">
+              <h3>Weer in Orlando</h3>
+              <article id="weather"></article>
+              <h3>Zonsopkomst</h3>
+              <article id="sunrise"></article>
+          </div>
+	  </div>
+        <script type="text/javascript" src="mapstyles.js"></script>
+        <script type="text/javascript" src="main3.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSzSCtQfO0vGI4KThtMIqpnR_ZWKMUopY&callback=initMap"></script>
+	</body>
+</html>
